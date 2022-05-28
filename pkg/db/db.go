@@ -3,7 +3,7 @@ package db
 import (
 	"log"
 
-	"github.com/ziskter3262/go-grpc-auth-svc/pkg/models"
+	"github.com/zikster3262/go-grpc-auth-svc/pkg/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

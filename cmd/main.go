@@ -34,7 +34,7 @@ func main() {
 		log.Fatalln("Failed to listing:", err)
 	}
 
-	fmt.Println("Auth Svc on", c.Port)
+	fmt.Printf("Server Authentication service is running on port%v.", c.Port)
 
 	s := services.Server{
 		H:   h,
